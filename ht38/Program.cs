@@ -2,7 +2,7 @@
 double [] FillArray (int size)
 {
     double [] arr = new double [size];      // Как заполнить вещественный массив отрицательными числами в интернете нашел,
-    Random rand = new Random();             // но недопонял. Подскажите пожалуйстаб что мы делаем в этой строчке
+    Random rand = new Random();             // но недопонял. Подскажите пожалуйста, что мы делаем в этой строчке
     for (int i = 0; i < arr.Length;i++)
     {
         arr[i] = rand.Next(-100, 100) + rand.NextDouble(); //и в этой. Спасибо!
